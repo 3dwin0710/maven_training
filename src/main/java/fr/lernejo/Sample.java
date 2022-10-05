@@ -17,6 +17,7 @@ public class Sample {
     }
 
     enum Operation {
+
         ADD((a, b) -> a + b),
         MULT((a, b) -> a * b),
         ;
